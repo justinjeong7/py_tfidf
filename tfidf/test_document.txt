@@ -1,0 +1,5 @@
+this is a test documentation that is written for testing purpose.
+
+The code is being constructed for a few different reasons:
+1. So I can continue to improve on algorithms using both SOLID development principals and TDD
+2. So I can use it for my side project that requires text matching of various products
