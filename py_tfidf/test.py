@@ -1,5 +1,5 @@
-from document_management import DocManagement
-from tfidf import TFIDF
+from py_tfidf.document_management import DocManagement
+from py_tfidf.tfidf import TFIDF
 import unittest
 import logging
 import re, os

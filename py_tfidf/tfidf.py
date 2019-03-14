@@ -1,5 +1,5 @@
 import math
-from document_management import DocManagement
+from py_tfidf.document_management import DocManagement
 
 class TFIDF(DocManagement):
 
