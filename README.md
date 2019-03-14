@@ -13,7 +13,25 @@
 4. Store query results.  In my use case, document sizes are small but there are a lot of them.  As the runtime is 2NQ where N is the number of documents and Q is the size of the query, I want to retain search history to avoid repeated compute resource
 
 ### Getting started:
-Coming soon as a package
+You can pip it by `pip install git+https://github.com/justinjeong7/py_tfidf.git`
 
 ### Usage:
-Coming soon. You can get started by looking at the test cases though :)
+
+```
+import py_tfidf
+
+#initiate
+obj = py_tfidf.TFIDF()
+
+#add a document that is a string
+obj.add_document('test document number one')
+#add a document from a file
+obj.add_document_file('test_document.txt')
+#save the documents
+obj.save('test_file.json')
+#load the documents
+obj.load('test_file.json')
+
+#make a query
+obj.search('number one')
+```
